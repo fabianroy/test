@@ -1,3 +1,57 @@
-*{
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-inline-start: 20px;
+}
+
+main {
+    margin: 20px 40px 20px 40px;
+}
+
+main h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main p {
+    text-align: justify;
+}
+
+main marquee {
+    margin-top: 80px;
+    color: red;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
 }
